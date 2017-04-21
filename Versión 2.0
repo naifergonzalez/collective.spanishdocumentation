@@ -1,0 +1,70 @@
+<html>
+	<head>
+	<title>Salud_Virtual</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/interface.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+		<script type="text/javascript">
+		
+		$(document).ready(
+			function()
+			{
+				$('#dock').Fisheye(
+					{
+						maxWidth: 50,
+						items: 'a',
+						itemsText: 'span',
+						container: '.dock-container',
+						itemWidth: 40,
+						proximity: 90,
+						halign : 'center'
+					}
+				)
+			}
+		);
+
+	</script>
+	<body>
+	<div class="dock" id="dock">
+	  <div class="dock-container">
+	  <a class="dock-item" href="index.html"><img src="images/home.png" alt="home" /><span class="otto">Inicio</span></a> 
+	  <a class="dock-item" href="quienes_somos.html"><img src="images/quienes_somos.png" alt="contact" /><span class="otto">¿Quienes somos?</span></a> 
+	  <a class="dock-item" href="galeria.html"><img src="images/galeria.png" alt="portfolio" /><span class="otto">Galeria</span></a> 
+	  <a class="dock-item" href="noticias.html"><img src="images/noticias.png" alt="music" /><span class="otto">Noticias</span></a> 
+	  <a class="dock-item" href="session.html"><img src="images/login.png" alt="video" /><span class="otto">Login</span></a> 
+	  <a class="dock-item" href="contactenos.html"><img src="images/contact.png" alt="history" /><span class="otto">Contáctenos</span></a> 
+	</div>
+	</div>
+
+			<header>
+				<h1 class="texto">CONTÁCTENOS</h1>
+				<div align="center"><img src="images/logo.png" white:100 high:100 ></div>
+			</header>	
+	
+	
+               <div class="nn"> 
+
+					
+						 	
+							<a href="https://www.facebook.com/"><img src="images/fb.png" width="100px" height="75px"></a>
+							<a href="https://twitter.com/"><img src="images/Tw.png" width="80px" height="80px"></a>
+							<a href="https://www.instagram.com/"><img src="images/ins.ico" width="80px" height="80px"></a>							
+							<a href="https://mail.google.com/"><img src="images/gg.png" width="80px" height="75px"></a>
+						 	
+					
+				</div>
+
+		<footer class="fullwidth ">
+	      <div class="footer">
+		  <br>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">Salud virtual</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;"> Bogotá Colombia</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">salud_virtual@hotmail.com</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">Telefono de contacto: 3123083222</strong></p>
+          <center><a href="http://www.cerotec.net/estadisticas-74440/nanis" title="visitas"><img src="http://www.cerotec.net/contador.php?t=45&s=2&i=74440" alt="Contador de visitas y estadísticas"></center>
+		  </div>
+	     </footer>
+	</body>
+</html>
+
