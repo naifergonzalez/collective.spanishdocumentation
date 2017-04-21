@@ -1,0 +1,463 @@
+<html>
+	<head>
+	<title>Salud_Virtual</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+		<script src="jquery.cycle2.carousel.min.js"></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<script type='text/javascript' src='menu_jquery.js'></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/interface.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<style>
+	
+			.cycle-slideshow {
+			width: 350px;
+			min-width: 200px;
+
+			padding: 0;
+			}
+			
+			.cycle-slideshow > div {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 0;
+			}
+
+			.cycle-slideshow .imagen{
+			width:350px;
+			position: initial;
+			height: 200px;
+			display: initial;
+			}
+
+		</style>
+	</head>
+	
+	<script type="text/javascript">
+		
+		$(document).ready(
+			function()
+			{
+				$('#dock').Fisheye(
+					{
+						maxWidth: 50,
+						items: 'a',
+						itemsText: 'span',
+						container: '.dock-container',
+						itemWidth: 40,
+						proximity: 90,
+						halign : 'center'
+					}
+				)
+			}
+		);
+
+	</script>
+	
+	<body>
+		<div class="dock" id="dock">
+	          <div class="dock-container">
+	            <a class="dock-item" href="index.html"><img src="images/home.png" alt="home" /><span class="otto">Inicio</span></a> 
+	            <a class="dock-item" href="quienes_somos.html"><img src="images/quienes_somos.png" alt="contact" /><span class="otto">¿Quienes somos?</span></a> 
+	            <a class="dock-item" href="galeria.html"><img src="images/galeria.png" alt="portfolio" /><span class="otto">Galeria</span></a> 
+	            <a class="dock-item" href="noticias.html"><img src="images/noticias.png" alt="music" /><span class="otto">Noticias</span></a> 
+	            <a class="dock-item" href="session.html"><img src="images/login.png" alt="video" /><span class="otto">Login</span></a> 
+	            <a class="dock-item" href="contactenos.html"><img src="images/contact.png" alt="history" /><span class="otto">Contáctenos</span></a> 
+	          </div>
+		</div>
+	
+			<header>
+			    
+				
+				<h1 class="texto">TIPOS DE CANCER</h1>
+			</header>
+	         
+	 <div align="center"><img src="images/logo.png" white:100 high:100 ></div>
+				<div class="caja">
+				<div class="contenedor1">
+					<div class="cycle-slideshow" 
+						data-cycle-fx="fade" 
+						data-cycle-timeout="6000" 
+						data-cycle-slides="div" >
+        
+						<div>
+							<img src="images/7.jpg" class="imagen"/>
+						</div>
+		 
+						<div>
+							<img src="images/12.jpg" class="imagen"/>
+						</div>
+		 
+						<div>
+							<img src="images/7.jpg" class="imagen"/>
+						</div>
+		                   
+						<div>
+							<img src="images/12.jpg" class="imagen"/>
+						</div>
+					</div>
+
+					<div class="cycle-slideshow" 
+						data-cycle-fx="scrollHorz" 
+						data-cycle-timeout="6000" 
+						data-cycle-slides="div" 
+						style="position: relative; overflow: hidden;">
+
+						<div style="background:#0099FF">
+							<p class="parrafopg">
+								CANCER DE MAMA
+							</p>
+						</div>
+		 
+						<div style="background:#0099FF">
+							<p class="parrafopg">
+								CANCER DE ESTOMAGO
+							</p>
+								
+							</p>
+						</div>
+		 
+						<div style="background:#0099FF">	
+							<p class="parrafopg">
+								CANCER DE MAMA
+							</p>
+								
+							</p>
+						</div>
+		 	
+						<div style="background:#0099FF" class="cycle-slide">
+							<p class="parrafopg">
+								CANCER DE ESTOMAGO
+							</p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="contenedor1">
+					<div class="cycle-slideshow" 
+						data-cycle-fx="fade" 
+						data-cycle-timeout="6000" 
+						data-cycle-slides="div" 
+					>
+	 
+					<div>
+						<img src="images/6.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/13.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/6.jpg" class="imagen"/>
+					</div>
+	 	
+					<div>
+						<img src="images/13.jpg" class="imagen"/>
+					</div>
+				</div>
+
+				<div class="cycle-slideshow" 
+					data-cycle-fx="scrollHorz" 
+					data-cycle-timeout="6000" 
+					data-cycle-slides="div" 
+					style="position: relative; overflow: hidden;">
+
+					<div style="background:#0099FF">
+						<p class="parrafopg">
+							CANCER DE COLON
+
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF">
+						<p class="parrafopg">
+							CANCER DE PIEL
+
+						</p>
+					</div>
+	 	
+					<div style="background:#0099FF">	
+						<p class="parrafopg">
+							CANCER DE COLON 
+
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF" class="cycle-slide">
+						<p class="parrafopg">
+							CANCER DE PIEL
+
+						</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="contenedor1">
+				<div class="cycle-slideshow" 
+					data-cycle-fx="fade" 
+					data-cycle-timeout="6000" 
+					data-cycle-slides="div" 
+				>
+				
+	 	
+					<div>
+						<img src="images/8.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/14.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/8.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/14.jpg" class="imagen"/>
+					</div>
+				</div>
+
+				<div class="cycle-slideshow" 
+					data-cycle-fx="scrollHorz" 
+					data-cycle-timeout="6000" 
+					data-cycle-slides="div" 
+					style="position: relative; overflow: hidden;">
+
+					<div style="background:#0099FF">
+						<p class="parrafopg">
+							CANCER DE PROSTATA
+                         
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF">
+						<p class="parrafopg">
+							MENSAJE
+                        
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF">	
+						<p class="parrafopg">
+						CANCER DE PROSTATA
+                       
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF" class="cycle-slide">
+						<p class="parrafopg">
+							MENSAJE
+                         
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="caja">
+				<div class="contenedor1">
+					<div class="cycle-slideshow" 
+						data-cycle-fx="fade" 
+						data-cycle-timeout="6000" 
+						data-cycle-slides="div" >
+        
+						<div>
+							<img src="images/9.jpg" class="imagen"/>
+						</div>
+		 
+						<div>
+							<img src="images/15.jpg" class="imagen"/>
+						</div>
+		 
+						<div>
+							<img src="images/9.jpg" class="imagen"/>
+						</div>
+		 
+						<div>
+							<img src="images/15.jpg" class="imagen"/>
+						</div>
+					</div>
+
+					<div class="cycle-slideshow" 
+						data-cycle-fx="scrollHorz" 
+						data-cycle-timeout="6000" 
+						data-cycle-slides="div" 
+						style="position: relative; overflow: hidden;">
+
+						<div style="background:#0099FF">
+							<p class="parrafopg">
+								CANCER DE PULMÓN
+							</p>
+						</div>
+		 
+						<div style="background:#0099FF">
+							<p class="parrafopg">
+								MENSAJE
+							</p>
+								
+							</p>
+						</div>
+		 
+						<div style="background:#0099FF">	
+							<p class="parrafopg">
+								CANCER DE PULMÓN
+							</p>
+								
+							</p>
+						</div>
+		 	
+						<div style="background:#0099FF" class="cycle-slide">
+							<p class="parrafopg">
+								MENSAJE
+							</p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+	
+				<div class="contenedor1">
+					<div class="cycle-slideshow" 
+						data-cycle-fx="fade" 
+						data-cycle-timeout="6000" 
+						data-cycle-slides="div" 
+					>
+	 
+					<div>
+						<img src="images/10.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/16.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/10.jpg" class="imagen"/>
+					</div>
+	 	
+					<div>
+						<img src="images/16.jpg" class="imagen"/>
+					</div>
+				</div>
+
+				<div class="cycle-slideshow" 
+					data-cycle-fx="scrollHorz" 
+					data-cycle-timeout="6000" 
+					data-cycle-slides="div" 
+					style="position: relative; overflow: hidden;">
+
+					<div style="background:#0099FF">
+						<p class="parrafopg">
+							CANCER 
+
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF">
+						<p class="parrafopg">
+							MENSAJE
+
+						</p>
+					</div>
+	 	
+					<div style="background:#0099FF">	
+						<p class="parrafopg">
+							CANCER 
+
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF" class="cycle-slide">
+						<p class="parrafopg">
+							MENSAJE
+
+						</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="contenedor1">
+				<div class="cycle-slideshow" 
+					data-cycle-fx="fade" 
+					data-cycle-timeout="6000" 
+					data-cycle-slides="div" 
+				>
+				
+	 	
+					<div>
+						<img src="images/11.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/17.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/11.jpg" class="imagen"/>
+					</div>
+	 
+					<div>
+						<img src="images/17.jpg" class="imagen"/>
+					</div>
+				</div>
+
+				<div class="cycle-slideshow" 
+					data-cycle-fx="scrollHorz" 
+					data-cycle-timeout="6000" 
+					data-cycle-slides="div" 
+					style="position: relative; overflow: hidden;">
+
+					<div style="background:#0099FF">
+						<p class="parrafopg">
+							NO TE RINDAS
+                         
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF">
+						<p class="parrafopg">
+							CUELLO UTERINO
+                        
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF">	
+						<p class="parrafopg">
+						    NO TE RINDAS
+                        
+						</p>
+					</div>
+	 
+					<div style="background:#0099FF" class="cycle-slide">
+						<p class="parrafopg">
+							CUELLO UTERINO
+                         
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+						
+		
+		
+      	<footer class="fullwidth ">
+	      <div class="footer">
+		  <br>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">Salud virtual</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;"> Bogotá Colombia</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">salud_virtual@hotmail.com</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">Telefono de contacto: 3123083222</strong></p>
+          <center><a href="http://www.cerotec.net/estadisticas-74440/nanis" title="visitas"><img src="http://www.cerotec.net/contador.php?t=45&s=2&i=74440" alt="Contador de visitas y estadísticas"></center>
+		  </div>
+	     </footer>
+
+	</body>
+</html>
