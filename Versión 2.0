@@ -1,0 +1,127 @@
+<html>
+	<head>
+	<title>Salud_Vritual</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+		<script src="jquery.cycle2.carousel.min.js"></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<script type='text/javascript' src='menu_jquery.js'></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/interface.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+		<script type="text/javascript">
+		
+		$(document).ready(
+			function()
+			{
+				$('#dock').Fisheye(
+					{
+						maxWidth: 50,
+						items: 'a',
+						itemsText: 'span',
+						container: '.dock-container',
+						itemWidth: 40,
+						proximity: 90,
+						halign : 'center'
+					}
+				)
+			}
+		);
+
+	</script>
+	<body>
+	<header>
+	<div class="dock" id="dock">
+	  <div class="dock-container">
+	  <a class="dock-item" href="index.html"><img src="images/home.png" alt="home" /><span class="otto">Inicio</span></a> 
+	  <a class="dock-item" href="quienes_somos.html"><img src="images/quienes_somos.png" alt="contact" /><span class="otto">¿Quienes somos?</span></a> 
+	  <a class="dock-item" href="galeria.html"><img src="images/galeria.png" alt="portfolio" /><span class="otto">Galeria</span></a> 
+	  <a class="dock-item" href="noticias.html"><img src="images/noticias.png" alt="music" /><span class="otto">Noticias</span></a> 
+	  <a class="dock-item" href="session.html"><img src="images/login.png" alt="video" /><span class="otto">Login</span></a> 
+	  <a class="dock-item" href="contactenos.html"><img src="images/contact.png" alt="history" /><span class="otto">Contáctenos</span></a> 
+	</div>
+	</div>
+	
+	</header>
+	<h1 class="texto">SALUD VIRTUAL</h1>
+	<div align="center"><img src="images/logo.png" white:100 high:100 ></div>
+	<div class="contenedor">
+	 <section>
+        <article>
+           <h2 class="titulo">AGENDA DE DOCTORES<h2>
+		    <div class="perfil">
+			 SR.GONZALEZ - DISPONIBLE 
+		    </div>
+			<p></p>
+			<div class="perfil">
+			SRA.MARTINEZ - NO DISPONIBLE
+		    </div>
+			<p>
+			</p>
+			<div class="perfil">
+			SRA.MAHECHA -  DISPONIBLE
+		    </div>
+			<p>
+			</p>
+			<div class="perfil">
+			SRA.CARDONA -  DISPONIBLE
+		    </div>
+			<p>
+			</p>
+			<div class="perfil">
+			SRA.QUINTERO - NO DISPONIBLE
+		    </div>
+       </article>
+     </section>
+	 <p>
+	 </p>
+	 <br>
+	</br>
+	</div>
+             <br>
+			 <center>
+			<td></td>
+					<br></br> <tr>	<td><a href="usuarios conectados.html"><img src="images/grupos.png" white=55 height=50 /></a> </td>
+			</tr>
+		   <tr>	<td><a href="reporte.html"><img src="images/reporte.png" white=55 height=50 /></a> </td>
+			</tr>
+			<tr>	<td><a href="historial.html"><img src="images/historial.png" white=55 height=50 /></a> </td>
+			</tr>
+			<tr>	<td><a href="mensajes.html"><img src="images/foro.png" white=55 height=50 /></a> </td>
+			</tr>
+			<tr>	<td><a href="entidades.html"><img src="images/entidades.png" white=55 height=50 /></a> </td>
+			</tr>
+			</center>
+            </br>
+			
+	<div class="noticias">
+	 <aside>
+	  
+       <h3 class="titulo">ASIGNAR CITA</h3>
+	   
+             <tr>
+			  <td><textarea name="escribir mensaje" rows="10" cols="40"></textarea></td>
+		    </tr>
+			<tr>
+			<br>
+			<td><a href="foro.html"><img src="images/enviar.png" white=55 height=50 /></a> </td>
+			</tr>
+            </br>
+        
+     </aside>
+	</div>
+
+	 <footer class="fullwidth ">
+	      <div class="footer">
+		  <br>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">Salud virtual</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;"> Bogotá Colombia</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">salud_virtual@hotmail.com</strong></p>
+		  <p style="text-align: center;"> <strong style="line-height: 1.4;">Telefono de contacto: 3123083222</strong></p>
+          <center><a href="http://www.cerotec.net/estadisticas-74440/nanis" title="visitas"><img src="http://www.cerotec.net/contador.php?t=45&s=2&i=74440" alt="Contador de visitas y estadísticas"></center>
+		  </div>
+	     </footer>
+	</body>
+</html>
